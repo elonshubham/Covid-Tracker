@@ -38,6 +38,7 @@
             android:layout_marginTop="8dp"
             android:gravity="right"
             android:text="000000"
+            android:textColor="#000000"
             android:textSize="12sp"
             card_view:layout_constraintStart_toStartOf="parent"
             card_view:layout_constraintTop_toTopOf="parent" />
@@ -46,28 +47,28 @@
             android:id="@+id/death_no"
             android:layout_width="42dp"
             android:layout_height="18dp"
-            android:layout_marginStart="36dp"
+            android:layout_marginStart="216dp"
             android:layout_marginTop="8dp"
-            android:gravity="right"
+            android:gravity="center"
             android:text="000000"
+            android:textColor="#FD0000"
             android:textSize="12sp"
-            card_view:layout_constraintEnd_toStartOf="@+id/recovered_no"
-            card_view:layout_constraintHorizontal_bias="0.217"
-            card_view:layout_constraintStart_toEndOf="@+id/total_no"
+            card_view:layout_constraintStart_toStartOf="parent"
             card_view:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/recovered_no"
             android:layout_width="42dp"
             android:layout_height="18dp"
-            android:layout_marginEnd="16dp"
-            android:text="00000"
+            android:layout_marginTop="8dp"
             android:gravity="right"
+            android:text="00000"
+            android:textColor="#0AB311"
             android:textSize="12sp"
-            card_view:layout_constraintBottom_toBottomOf="parent"
             card_view:layout_constraintEnd_toEndOf="parent"
-            card_view:layout_constraintTop_toTopOf="parent"
-            card_view:layout_constraintVertical_bias="0.571" />
+            card_view:layout_constraintHorizontal_bias="0.951"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
